@@ -1,0 +1,60 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* PAGE */
+
+.page {
+    width: 100%;
+    height: 100vh;
+
+    background: url(./3.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* HEADER */
+
+.header {
+   background-color:rgb(255, 255, 255);
+   padding: 14px 0;
+}
+
+.header-iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(71, 70, 70);
+    font-weight: 500;
+    font-family: fantasy;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-link {
+    margin-left: 25px;
+    color: rgb(71, 70, 70);
+    font-size: 15 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+/* Content */
+
+.subtitle {
+    font-size: 21px;
+    color: black;
+}
